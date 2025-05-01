@@ -54,7 +54,7 @@ class MainActivity : ComponentActivity() {
         )
 
         if (savedInstanceState == null) {
-            orientationLayout?.screenOrientation = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
+            orientationLayout?.screenOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
         } else {
             orientationLayout?.screenOrientation = savedInstanceState.getInt("SAVED_LAYOUT")
         }
